@@ -1,0 +1,351 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+%
+% Adapted to be an Rmarkdown template by Mitchell O'Hara-Wild
+% 23 November 2018
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt,a4paper,]{awesome-cv}
+
+% Configure page margins with geometry
+\usepackage{geometry}
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+
+\definecolor{awesome}{HTML}{414141}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+\def\endfirstpage{\newpage}
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+
+\name{Jessica}{Burnett}
+
+\address{5067 6th Place NE, Washington, D.C. 20017}
+
+\email{\href{mailto:jessica.burnett@nasa.gov}{\nolinkurl{jessica.burnett@nasa.gov}}}
+
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \skype{skype-id}
+% \reddit{reddit-id}
+
+
+\usepackage{booktabs}
+
+\providecommand{\tightlist}{%
+	\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+%------------------------------------------------------------------------------
+
+
+
+% Pandoc CSL macros
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{2em}
+\newenvironment{CSLReferences}[2] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1 \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces\fi
+  % set entry spacing
+  \ifnum #2 > 0
+  \setlength{\parskip}{#2\baselineskip}
+  \fi
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{\honortitlestyle{#1}}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{\honordatestyle{#1}}}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+% 2019-02-14 Chris Umphlett - add flexibility to the document name in footer, rather than have it be static Curriculum Vitae
+\makecvfooter
+  {March 2023}
+    {Jessica Burnett~~~·~~~Curriculum Vitae}
+  {\thepage}
+
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%------------------------------------------------------------------------------
+
+
+
+\hypertarget{research-interests}{%
+\section{Research Interests}\label{research-interests}}
+
+Attention; distraction; mind-wandering; eye movements
+
+\hypertarget{education}{%
+\section{Education}\label{education}}
+
+\begin{cventries}
+    \cventry{Postdoctoral Research Fellow, Department of Psychology}{University of Michigan}{Ann Arbor, MI, USA}{06/2020-present}{\begin{cvitems}
+\item Advisor: Dr. John Jonides
+\end{cvitems}}
+    \cventry{Doctor of Philosophy, Education and Psychology}{University of Michigan}{Ann Arbor, MI, USA}{09/2014-05/2020}{\begin{cvitems}
+\item Dissertation: Mind-wandering: What Can We Learn from Eye Movements?
+\end{cvitems}}
+    \cventry{Master of Science, Psychology}{University of Michigan}{Ann Arbor, MI, USA}{09/2014-04/2018}{}\vspace{-4.0mm}
+    \cventry{Bachelor of Science, Psychology}{Beijing Normal University}{Beijing, China}{09/2010-07/2014}{}\vspace{-4.0mm}
+\end{cventries}
+
+\hypertarget{awards-and-grants}{%
+\section{Awards and Grants}\label{awards-and-grants}}
+
+\begin{cventries}
+    \cventry{School of Education, University of Michigan}{Stanley E. and Ruth B. Dimond Best Dissertation Award}{2020}{}{\begin{cvitems}
+\item Dissertation: Mind-wandering: What Can We Learn from Eye Movements?
+\end{cvitems}}
+    \cventry{School of Education, University of Michigan}{2020 ProQuest Distinguished Dissertation Awards (Nomination)}{2020}{}{\begin{cvitems}
+\item Dissertation: Mind-wandering: What Can We Learn from Eye Movements?
+\end{cvitems}}
+    \cventry{Rackham Graduate School, University of Michigan}{Rackham One-Term Dissertation Fellowship}{2019}{\$17417}{}\vspace{-4.0mm}
+    \cventry{Rackham Graduate School, University of Michigan}{Rackham Graduate Student Research Grant}{2019}{\$3000}{}\vspace{-4.0mm}
+    \cventry{Rackham Graduate School, University of Michigan}{Rackham Conference Travel Grant}{2019, 2018, 2017}{\$1050}{}\vspace{-4.0mm}
+    \cventry{Rackham Graduate School, University of Michigan}{Rackham Summer Training Award}{2018}{\$3700}{}\vspace{-4.0mm}
+    \cventry{School of Education, University of Michigan}{Professor \& Mrs. Cho-Yee To Travel Grant}{2017, 2015}{\$500}{}\vspace{-4.0mm}
+    \cventry{Ministry of Education of the People's Republic of China}{China National Scholarship}{2014}{\$1500}{}\vspace{-4.0mm}
+    \cventry{Faculty of Psychology, Beijing Normal University}{The First Rank Academic Scholarship}{2014, 2013}{\$300}{}\vspace{-4.0mm}
+    \cventry{Beijing Municipal Commission of Education}{Beijing Student Research and Entrepreneurial Action Plan}{2013}{\$1500}{}\vspace{-4.0mm}
+    \cventry{Faculty of Psychology, Beijing Normal University}{Undergraduate Student Research Grant}{2012}{\$280}{}\vspace{-4.0mm}
+\end{cventries}
+
+\hypertarget{peer-reviewed-publications}{%
+\section{Peer-reviewed Publications}\label{peer-reviewed-publications}}
+
+\hypertarget{bibliography}{}
+\leavevmode\vadjust pre{\hypertarget{ref-halpern2023priorities}{}}%
+Halpern, B. S., Boettiger, C., Dietze, M. C., Gephart, J. A., Gonzalez,
+P., Grimm, N. B., Groffman, P. M., Gurevitch, J., Hobbie, S. E.,
+Komatsu, K. J., et al. (2023). Priorities for synthesis research in
+ecology and environmental science. \emph{Ecosphere}, \emph{14}(1),
+e4342.
+
+\leavevmode\vadjust pre{\hypertarget{ref-burnett2021ten}{}}%
+Burnett, J. L., Dale, R., Hou, C.-Y., Palomo-Munoz, G., Whitney, K. S.,
+Aulenbach, S., Bristol, R. S., Valle, D., \& Wellman, T. P. (2021). Ten
+simple rules for creating a scientific web application. \emph{PLOS
+Computational Biology}, \emph{17}(12), e1009574.
+
+\leavevmode\vadjust pre{\hypertarget{ref-erickson2021paths}{}}%
+Erickson, R. A., Burnett, J. L., Wiltermuth, M. T., Bulliner, E. A., \&
+Hsu, L. (2021). Paths to computational fluency for natural resource
+educators, researchers, and managers. \emph{Natural Resource Modeling},
+\emph{34}(3), e12318.
+
+\leavevmode\vadjust pre{\hypertarget{ref-allen2019serdp}{}}%
+Allen, C., Burnett, J. L., Roberts, C. P., Twidwell, D., \& Angeler, D.
+G. (2019). \emph{SERDP project RC-2510: Global change, vulnerability and
+resilience: Management options for an uncertain future}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-burnett2019regime}{}}%
+Burnett, J. L. (2019). \emph{Regime detection measures for the practical
+ecologist} {[}PhD thesis{]}. University of Nebraska-Lincoln.
+
+\leavevmode\vadjust pre{\hypertarget{ref-burnett2019bbsassistant}{}}%
+Burnett, J. L., Wszola, L., \& Palomo-Muñoz, G. (2019). bbsAssistant: An
+r package for downloading and handling data and information from the
+north american breeding bird survey. \emph{Journal of Open Source
+Software}, \emph{4}(44), 1768.
+
+\leavevmode\vadjust pre{\hypertarget{ref-roberts2018early}{}}%
+Roberts, C. P., Twidwell, D., Burnett, J. L., Donovan, V. M., Wonkka, C.
+L., Bielski, C. L., Garmestani, A. S., Angeler, D. G., Eason, T.,
+Allred, B. W., Jones, M. O., Naugle, D. E., Sundstrom, S. M., \& Allen,
+C. R. (2018). Early warnings for state transitions. \emph{Rangeland
+Ecology \& Management}, \emph{71}(6), 659--670.
+\url{https://doi.org/10.1016/j.rama.2018.04.012}
+
+\leavevmode\vadjust pre{\hypertarget{ref-donovan2018social}{}}%
+Donovan, V. M., Burnett, J. L., Bielski, C. H., Birge, H. E., Bevans,
+R., Twidwell, D., \& Allen, C. R. (2018). Social-ecological landscape
+patterns predict woody encroachment from native tree plantings in a
+temperate grassland. \emph{Ecology and Evolution}, \emph{8}(19),
+9624--9632. \url{https://doi.org/10.1002/ece3.4340}
+
+\leavevmode\vadjust pre{\hypertarget{ref-burnett2018thermal}{}}%
+Burnett, J. L., Kevin, L. P., Wong, A., Allen, C. R., Haak, D. M.,
+Stephen, B. J., \& Uden, D. R. (2018). Thermal tolerance limits of the
+chinese mystery snail (bellamya chinensis): Implications for management.
+\emph{American Malacological Bulletin}, \emph{36}(1), 140--144.
+
+\leavevmode\vadjust pre{\hypertarget{ref-lasorte2018opportunities}{}}%
+La Sorte, F. A., Lepczyk, C. A., Burnett, J. L., Hurlbert, A. H.,
+Tingley, M. W., \& Zuckerberg, B. (2018). Opportunities and challenges
+for big data ornithology. \emph{Condor}, \emph{120}(2), 414--426.
+\url{https://doi.org/10.1650/CONDOR-17-206.1}
+
+\leavevmode\vadjust pre{\hypertarget{ref-chuang2018enhancing}{}}%
+Chuang, W. C., Garmestani, A., Eason, T. N., Spanbauer, T. L.,
+Fried-Petersen, H. B., Roberts, C. P., Sundstrom, S. M., Burnett, J. L.,
+Angeler, D. G., Chaffin, B. C., Gunderson, L., Twidwell, D., \& Allen,
+C. R. (2018). Enhancing quantitative approaches for assessing community
+resilience. \emph{Journal of Environmental Management}, \emph{213},
+353--362. \url{https://doi.org/10.1016/j.jenvman.2018.01.083}
+
+\leavevmode\vadjust pre{\hypertarget{ref-burnett2017range}{}}%
+Burnett, J. L., Roberts, C. P., Allen, C. R., Brown, M. B., \& Moulton,
+M. P. (2017). Range expansion by passer montanus in north america.
+\emph{Biological Invasions}, \emph{19}(1), 5--9.
+\url{https://doi.org/10.1007/s10530-016-1273-4}
+
+\leavevmode\vadjust pre{\hypertarget{ref-allen2016avoiding}{}}%
+Allen, C. R., Birge, H. E., Bartelt-Hunt, S., Bevans, R. A., Burnett, J.
+L., Cosens, B. A., Cai, X., Garmestani, A. S., Linkov, I., Scott, E. A.,
+Solomon, M. D., \& Uden, D. R. (2016). Avoiding decline: Fostering
+resilience and sustainability in midsize cities. \emph{Sustainability},
+\emph{8}(9). \url{https://doi.org/10.3390/su8090844}
+
+\leavevmode\vadjust pre{\hypertarget{ref-burnett2016songbird}{}}%
+Burnett, J. L., \& Sieving, K. E. (2016). Songbird distress calls as an
+improved method for detecting red-shouldered hawks (buteo lineatus).
+\emph{Florida Field Naturalist}, \emph{44}(4), 157--168.
+
+\leavevmode\vadjust pre{\hypertarget{ref-burnett2015recent}{}}%
+Burnett, J. L., \& Moulton, M. P. (2015). Recent trends in house sparrow
+(passer domesticus) distribution and abundance in gainesville, alachua
+county, florida. \emph{Florida Field Naturalist}, \emph{43}(4),
+167--172.
+
+\hypertarget{book-chapters}{%
+\section{Book Chapters}\label{book-chapters}}
+
+\hypertarget{bibliography}{}
+\leavevmode\vadjust pre{\hypertarget{ref-burnett2020introduced}{}}%
+Burnett, J. L., \& Allen, C. R. (2020). Continental analysis of invasive
+birds: North america. In C. T. Downs \& L. A. Hart (Eds.), \emph{Global
+trends and impacts of alien invasive birds}. CABI, Wallingford, U.K.
+
+\hypertarget{work-in-progress}{%
+\section{Work in Progress}\label{work-in-progress}}
+
+\hypertarget{selected-presentations}{%
+\section{Selected Presentations}\label{selected-presentations}}
+
+\hypertarget{bibliography}{}
+\leavevmode\vadjust pre{\hypertarget{ref-burnett2017perdix}{}}%
+Burnett, J. L., Wszola, L., Mirochnitchenko, N., Stuber, Erica,
+Bomberger Brown, M., \& Carroll, J. P. (2017). \emph{Gray partridge
+distribution in north america: Changing landscapes and environment for
+an introduced species}. 33rd International Congress of the International
+Union of Game Biologists (IUGB).
+
+\hypertarget{teaching-experience}{%
+\section{Teaching Experience}\label{teaching-experience}}
+
+\hypertarget{primary-instructor}{%
+\subsection{Primary Instructor}\label{primary-instructor}}
+
+\begin{cventries}
+    \cventry{Course design; weekly lectures; grading assignments and exams; office hours}{EDUC 391: Educational Psychology and Human Development}{09/2017 - 12/2017}{}{}\vspace{-4.0mm}
+\end{cventries}
+
+\hypertarget{graduate-student-instructor}{%
+\subsection{Graduate Student
+Instructor}\label{graduate-student-instructor}}
+
+\begin{cventries}
+    \cventry{Grading student essays and exams; office hours; supervising student research projects}{PSYCH 457 : Research in Educational and Cross-Cultural Settings}{01/2020 - 04/2020}{}{}\vspace{-4.0mm}
+    \cventry{Grading student essays and exams; office hours; supervising student research projects}{PSYCH 457 : Research in Educational and Cross-Cultural Settings}{01/2019 - 04/2019}{}{}\vspace{-4.0mm}
+    \cventry{Three review sessions per week; grading assignments and exams; office hours}{PSYCH 111: Introduction to Psychology}{01/2018 - 04/2018}{}{}\vspace{-4.0mm}
+    \cventry{Grading student essays and exams; office hours; supervising student research projects}{PSYCH 457 : Research in Educational and Cross-Cultural Settings}{01/2017 - 04/2017}{}{}\vspace{-4.0mm}
+    \cventry{Three review sessions per week; grading assignments and exams; office hours}{PSYCH 240: Intro to Cognitive Psychology}{09/2016 - 12/2016}{}{}\vspace{-4.0mm}
+    \cventry{Grading student essays and exams; office hours; supervising student research projects}{PSYCH 457 : Research in Educational and Cross-Cultural Settings}{01/2016 - 04/2016}{}{}\vspace{-4.0mm}
+\end{cventries}
+
+\hypertarget{program-assistant}{%
+\subsection{Program Assistant}\label{program-assistant}}
+
+\begin{cventries}
+    \cventry{Supervising joint research projects between US and Chinese students; organizing student activities}{Global Course Connection: Beijing Normal University}{2015 - 2019}{}{}\vspace{-4.0mm}
+\end{cventries}
+
+\hypertarget{professional-service}{%
+\section{Professional Service}\label{professional-service}}
+
+\hypertarget{ad-hoc-reviewer}{%
+\subsection{Ad Hoc Reviewer}\label{ad-hoc-reviewer}}
+
+\begin{itemize}
+\tightlist
+\item
+  Memory \& Cognition
+\item
+  NeuroImage
+\item
+  Visual Cognition
+\item
+  Cognitive Science
+\item
+  Scientific Studies of Reading
+\item
+  Frontiers in Psychiatry
+\item
+  Psychological Research
+\end{itemize}
+
+\hypertarget{references}{%
+\section{References}\label{references}}
+
+\begin{cventries}
+    \cventry{Edward E. Smith Professor of Psychology and Neuroscience; Co-Director, functional MRI Center, University of Michigan; Senior Editor, Psychological Science}{John Jonides, Ph.D.}{jjonides@umich.edu; 734-764-0192}{}{}\vspace{-4.0mm}
+    \cventry{Professor of Psychology and Education,  University of Michigan}{Kevin F. Miller, Ph.D.}{kevinmil@umich.edu; 734-615-1800}{}{}\vspace{-4.0mm}
+    \cventry{Professor of Cognition \& Cognitive Neuroscience and Educational Psychology, University of Michigan}{Priti Shah, Ph.D.}{priti@umich.edu; 734-615-3745}{}{}\vspace{-4.0mm}
+    \cventry{Professor of Psychology, University of Michigan}{Kai S. Cortina, Ph.D.}{schnabel@umich.edu; 734-615-3809}{}{}\vspace{-4.0mm}
+\end{cventries}
+
+
+
+\end{document}

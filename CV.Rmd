@@ -1,14 +1,13 @@
 ---
-name: Han
-surname: Zhang
-position: "Postdoctoral Research Fellow"
-address: "Department of Psychology, University of Michigan"
-www: sites.lsa.umich.edu/hanzh
-email: "hanzh@umich.edu"
+name: Jessica
+surname: Burnett
+# position: "Associate Program Manager"
+address: "5067 6th Place NE, Washington, D.C. 20017"
+# www: sites.lsa.umich.edu/hanzh
+email: "jessica.burnett@nasa.gov"
 #orcid: 0000-0001-6087-0428
-researchgate: Han_Zhang175
-github: HanZhang-psych
-twitter: \_HanZhang_
+# researchgate: Han_Zhang175
+# github: trashbirdecology
 headcolor: 414141 # use black color
 date: "`r format(Sys.time(), '%B %Y')`"
 csl: apa-cv.csl # change this if you want to use other citation styles
@@ -107,7 +106,7 @@ bibliography_entries("Book_chapters.bib")
 # Work in Progress 
 
 ```{r}
-bibliography_entries("In_progress.bib")
+# bibliography_entries("In_progress.bib")
 ```
 
 # Selected Presentations
