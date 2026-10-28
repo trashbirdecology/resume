@@ -1,0 +1,12 @@
+# Copy this file to private.yml (gitignored) and fill it in.
+# Templates use these fields when private.yml exists and omit them otherwise,
+# so the public repo never contains them.
+
+phone: "(000) 000-0000"
+address: "Street, City, ST 00000"   # only if an application requires it
+citizenship: U.S. Citizen
+federal_status: Current Federal Employee, GS-0801-15
+supervisor:
+  name: Name
+  phone: "(000) 000-0000"
+  may_contact: true

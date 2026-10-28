@@ -1,0 +1,151 @@
+---
+# The full running list, rendered. This is what early-career folks see on
+# GitHub (extended-cv.md at the repo root). Render with: Rscript build.R extended
+title: ""
+bibliography: [../data/publications.bib, ../data/reports.bib]
+csl: ../assets/science.csl
+nocite: "@*"
+output:
+  md_document:
+    variant: gfm-raw_html
+  pdf_document:
+    latex_engine: xelatex
+    includes:
+      in_header: ../assets/preamble.tex
+geometry: margin=0.75in
+fontsize: 10pt
+mainfont: Carlito
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, results = "asis")
+source(file.path(dirname(knitr::current_input(dir = TRUE)), "..", "R", "cv.R"))
+cv <- load_cv()
+cv$private <- list()   # the public page never shows private fields
+```
+
+```{r}
+render_header(cv)
+p <- cv$profile
+cat("[GitHub](https://github.com/", p$github, ") | [ORCID](https://orcid.org/", p$orcid,
+    ") | [Google Scholar](", p$scholar, ") | [LinkedIn](https://www.linkedin.com/in/", p$linkedin, ")\n\n", sep = "")
+cat("*Last updated ", format(Sys.Date(), "%B %Y"), ". This is my running list of everything I've done, ",
+    "kept public so early-career folks can see what a nonlinear science career looks like. ",
+    "See the [README](README.md) for how it's built.*\n\n", sep = "")
+```
+
+## About
+
+```{r}
+cat(esc(squish(cv$profile$summary$extended)), "\n\n")
+```
+
+## Experience
+
+```{r}
+render_experience(cv, max_priority = 3)
+```
+
+## Education
+
+```{r}
+render_education(cv, details = TRUE)
+```
+
+## Awards, Fellowships, and Honors
+
+```{r}
+render_awards(cv)
+```
+
+## Publications
+
+::: {#refs}
+:::
+
+## Software
+
+```{r}
+render_software(cv)
+```
+
+## Grants
+
+### Funded
+
+```{r}
+render_simple(cv$grants$funded, year_field = "year")
+```
+
+### Not funded
+
+Rejections are part of the job. Here are mine.
+
+```{r}
+render_simple(cv$grants$not_funded, year_field = "year")
+```
+
+## Presentations
+
+### Keynote and invited
+
+```{r}
+render_talks(cv, c("keynote", "invited"))
+```
+
+### Contributed
+
+```{r}
+render_talks(cv, "contributed")
+```
+
+## Workshops and Sessions Organized
+
+```{r}
+render_simple(cv$workshops$events, year_field = "year")
+render_simple(cv$workshops$sessions, year_field = "year")
+```
+
+## Service
+
+### National and interagency
+
+```{r}
+render_simple(cv$service$national)
+```
+
+### Peer review
+
+```{r}
+render_simple(cv$service$review)
+```
+
+### University
+
+```{r}
+render_simple(cv$service$university)
+```
+
+### Outreach and mentoring
+
+```{r}
+render_simple(cv$service$outreach)
+```
+
+### Media and writing
+
+```{r}
+render_simple(cv$service$media)
+```
+
+## Training
+
+```{r}
+render_simple(cv$service$training)
+```
+
+## Outside Work
+
+```{r}
+bullets(unlist(cv$service$interests))
+```

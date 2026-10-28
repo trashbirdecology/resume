@@ -1,0 +1,473 @@
+# THE RUNNING LIST. Every role, and everything I did in it.
+#
+# Add to this file whenever something happens; never delete (comment out
+# instead). Resumes are filtered views of this file.
+#
+# Fields on each accomplishment:
+#   text:      the bullet, written so it can stand alone
+#   priority:  1 = headline (always in short resumes), 2 = strong, 3 = depth
+#   tags:      topics, used by templates to filter (vocabulary in README)
+#   ecq:       SES Executive Core Qualifications it supports (1-5), optional
+#                1 Rule of Law & Principles of the American Founding
+#                2 Driving Efficiency   3 Merit & Competence
+#                4 Leading People       5 Achieving Results
+#   verify:    a note when a fact still needs checking; templates skip
+#              these unless you render with include_unverified = TRUE
+
+- id: nasa-esds-pe
+  title: Program Executive, Earth Science Data Systems (ESDS)
+  org: NASA Headquarters
+  unit: Earth Science Division, Science Mission Directorate
+  location: Washington, DC
+  start: 2024-11
+  end: present
+  series_grade: GS-0801-15
+  hours: 40
+  summary: >-
+    Programmatic lead for NASA's operational Earth data production
+    portfolio: Foundational Data Products (FDP), the Fire Information for
+    Resource Management System (FIRMS), the Land, Atmosphere Near-real-time
+    Capability for Earth Observations (LANCE), Science Investigator-led
+    Processing Systems (SIPS), and the Earth Science Information Partners
+    (ESIP) cooperative agreement. About $40M per year, executed by civil
+    servant project teams and their contractors at four NASA centers.
+  accomplishments:
+    - text: >-
+        Leading formulation of Foundational Data Products from concept to a
+        leadership-approved framework (definition, designation criteria,
+        product specifications, portfolio management); required every
+        product to meet NASA Standard Data Product criteria.
+      priority: 1
+      tags: [strategy, governance, data-systems, leadership]
+      ecq: [3, 5]
+    - text: >-
+        Consolidating existing data production work into an FDP budget more
+        than 20% smaller than its current cost; set designation criteria
+        that retire duplicative products and centralize processing in the
+        cloud; reused NASA's Senior Review framework for FDP evaluation
+        instead of building a new process.
+      priority: 1
+      tags: [efficiency, budget, data-systems, governance]
+      ecq: [2]
+    - text: >-
+        Brought Headquarters accountability to two long-running near-real-time
+        systems (LANCE and FIRMS) that had operated with minimal oversight:
+        required their first formal project plans, made Earth Action a
+        co-signatory, and required it to fund non-data-system work such as
+        science and outreach, cutting ESDS's share of those costs by about
+        half. Now extending the model to NASA Black Marble.
+      priority: 1
+      tags: [governance, efficiency, partnerships, leadership]
+      ecq: [2, 4]
+    - text: >-
+        Over more than a year, moved Goddard's Earth Sciences Division (Code
+        610) and the ESDIS Project (Code 423) from limited coordination to a
+        working partnership on LANCE and FIRMS; the two organizations now
+        place staff on each other's subproject leadership teams.
+      priority: 1
+      tags: [leadership, people, partnerships]
+      ecq: [4]
+    - text: >-
+        Requested a capability to track dependencies among SIPS data
+        products; the ESDIS Project grew it into a full knowledge graph and
+        management system that now informs continuity risk management and
+        FDP priorities.
+      priority: 1
+      tags: [data-systems, governance, metrics]
+      ecq: [3]
+    - text: >-
+        Oversee and direct about 10 civil servants in center project offices,
+        who in turn manage contractor teams: set priorities, review
+        deliverables, and hold projects to cost and schedule. Selected the
+        FDP Project Manager and negotiated the agreement standing up the new
+        FDP project office at Goddard.
+      priority: 1
+      tags: [people, leadership, budget]
+      ecq: [4]
+    - text: >-
+        Identified the AAAS Science & Technology Policy Fellowship as a new
+        way to bring talent into ESDS, now in use; mentor and delegate
+        portfolio workstreams to the incoming fellow; set stretch
+        assignments for the program's operations officer; mentor 1-2 NASA
+        interns each year.
+      priority: 2
+      tags: [people, mentoring, leadership]
+      ecq: [4, 5]
+    - text: >-
+        Leading the use of data usage metrics across the ESDS portfolio,
+        including private-sector use, to guide Earth Science Division
+        investment priorities, center-level engagement, and which products
+        FDP will designate.
+      priority: 2
+      tags: [metrics, strategy, private-sector]
+      ecq: [3, 5]
+    - text: >-
+        First program executive to provide direct, consistent SIPS oversight;
+        led ESDIS to institute quarterly check-ins with each SIPS.
+      priority: 2
+      tags: [governance, data-systems]
+      ecq: [3]
+    - text: >-
+        Data Systems Lead on the Headquarters Mission Management Team for 11
+        satellite missions and airborne campaigns, with oversight of each
+        mission's Open Science and Data Management Plan; portfolio defaults
+        to open-source software and open data.
+      priority: 2
+      tags: [open-science, policy, data-systems]
+      ecq: [1, 3]
+    - text: >-
+        Led a FIRMS enhancement through a partnership with Google.org while
+        keeping continuity on a colleague's high-visibility work.
+      priority: 2
+      tags: [partnerships, private-sector, fire]
+      ecq: [5]
+    - text: >-
+        Scoping a joint NASA-NOAA approach to Level-0 data reprocessing to
+        cut duplicate interagency spending.
+      priority: 2
+      tags: [efficiency, interagency]
+      ecq: [2]
+    - text: >-
+        Reimagined ESDS working group governance in line with Earth Science
+        to Action strategy and agency guidance; charter updates for the
+        ESDSWG, DAAC, and LANCE user working groups were widely adopted.
+      priority: 2
+      tags: [governance, policy]
+      ecq: [1, 3]
+    - text: >-
+        Headquarters award oversight for the ESIP cooperative agreement
+        (deliverables, spend plans, compliance with award terms); started
+        the first regular NASA-NOAA-USGS coordination meeting of ESIP agency
+        representatives.
+      priority: 2
+      tags: [grants, interagency, governance]
+      ecq: [1, 2]
+    - text: >-
+        Served on the Association of Fish and Wildlife Agencies Data and
+        Technology Committee; brought the State of Missouri onto the LP DAAC
+        User Working Group.
+      priority: 2
+      tags: [states, conservation, partnerships]
+      ecq: [5]
+    - text: >-
+        Primary ESDS Headquarters point of contact for Earth Action; supported
+        the Earth Action private sector engagement project (survey, strategy,
+        execution) and integrated ARSET training materials into Earthdata.gov.
+      priority: 3
+      tags: [partnerships, private-sector, outreach]
+    - text: >-
+        Presented to the LANCE User Working Group in a question-driven format
+        that ESDIS leadership adopted for SIPS and DAAC meetings; ESDIS
+        assigned a dedicated LANCE engineer for the first time.
+      priority: 3
+      tags: [governance, leadership]
+      ecq: [4]
+    - text: >-
+        Synthesized usage and impact information to inform the AMSR-2 science
+        data cessation decision.
+      priority: 3
+      tags: [metrics, data-systems]
+      ecq: [3]
+    - text: >-
+        Served on the inaugural Satellite Needs Working Group (SNWG) Science
+        and Applications Board (Cycle 24).
+      priority: 3
+      tags: [interagency]
+    - text: >-
+        Connected the Congressional Research Service natural resources team
+        with NASA's Earth Information Center through a high-level engagement
+        and tour.
+      priority: 3
+      tags: [policy, outreach]
+    - text: >-
+        Connected a National Park Service detailee (SES Candidate Development
+        Program project) to multiple Headquarters and center programs.
+      priority: 3
+      tags: [interagency, mentoring]
+    - text: >-
+        Co-conceived and implemented the multi-center Biodiversity and
+        Ecological Conservation Virtual Center, which has since evolved into
+        a community of practice.
+      priority: 3
+      tags: [leadership, partnerships]
+    - text: >-
+        Ran the ESDS FINESST review panel (voluntary).
+      priority: 3
+      tags: [grants]
+
+- id: nasa-ecocon
+  title: Program Coordinator, Ecological Conservation (AAAS Science & Technology Policy Fellow)
+  org: NASA Headquarters
+  unit: Earth Science Division (Earth Action and Research programs)
+  location: Washington, DC
+  start: 2022-08
+  end: 2024-11
+  series_grade: GS-15 equivalent
+  hours: 40
+  accomplishments:
+    - text: >-
+        Connected NASA data to state fish and wildlife agencies for the first
+        time. Drawing on Cooperative Research Unit experience that states
+        hold jurisdictional authority over most wildlife, engaged AFWA,
+        WAFWA, and the regional associations; this changed how NASA writes
+        solicitations and awards grants for conservation applications.
+      priority: 1
+      tags: [states, conservation, partnerships, policy]
+      ecq: [1, 5]
+    - text: >-
+        Represented NASA on the National Nature Assessment federal steering
+        committee, the National Invasive Species Council, the natural capital
+        accounting interagency working group, and the National Plan for
+        Civil Earth Observations writing team.
+      priority: 1
+      tags: [interagency, policy]
+      ecq: [1]
+    - text: >-
+        Built the relationships behind a Memorandum of Understanding now in
+        development among USGS, NASA, and the National Park Service, and a
+        new center-to-center
+        partnership between USGS Patuxent Wildlife Research Center and NASA
+        Goddard.
+      priority: 1
+      tags: [interagency, partnerships]
+      ecq: [5]
+    - text: >-
+        Managed the solicitation lifecycle for Ecological Conservation awards:
+        drafted solicitation language (including open-data compliance), ran
+        peer review panels, evaluated data and software management plans,
+        and supported selections.
+      priority: 2
+      tags: [grants, open-science, policy]
+      ecq: [1]
+    - text: >-
+        Contributed to SMD's Scientific Information Policy (SPD-41a) before
+        its v1.0 publication, and wrote internal guidance and solicitation
+        language to put it into practice.
+      priority: 2
+      tags: [policy, open-science]
+      ecq: [1]
+    - text: >-
+        Led development of the program's strategic and business plan guiding
+        1- and 3-year investments.
+      priority: 2
+      tags: [strategy]
+      ecq: [5]
+    - text: >-
+        Opened new engagement with Tribal-serving organizations, including
+        the Native American Fish and Wildlife Society.
+      priority: 2
+      tags: [tribes, partnerships, conservation]
+    - text: >-
+        Organized national workshops and conferences of 75-500 participants
+        (see Workshops), and ran an annual outreach strategy of conference
+        exhibits, sponsored events, and targeted presentations to
+        conservation coalitions.
+      priority: 2
+      tags: [outreach, leadership]
+    - text: >-
+        Improved collaboration between the Earth Action program, ESDS, and
+        the Office of the Chief Science Data Officer through co-sponsored
+        events and shared solicitation language.
+      priority: 3
+      tags: [partnerships, open-science]
+    - text: >-
+        Technical expert on ecology and conservation for data calls from the
+        White House Office of Science and Technology Policy.
+      priority: 3
+      tags: [policy, conservation]
+    - text: >-
+        Subject matter expert for natural resource sciences in the Open
+        Grants initiative's planning activity.
+      priority: 3
+      tags: [open-science, grants]
+    - text: >-
+        Supervised and mentored high school and undergraduate students
+        through NASA's Office of STEM Engagement.
+      priority: 3
+      tags: [mentoring]
+
+- id: usgs
+  title: Research Ecologist and Mendenhall Postdoctoral Fellow
+  org: U.S. Geological Survey
+  unit: Biogeographic Sciences Branch, Core Science Systems
+  location: Lakewood, CO
+  start: 2019-08
+  end: 2022-08
+  series_grade: GS-0408-12
+  hours: 40
+  accomplishments:
+    - text: >-
+        Lead developer of bbsAssistant (USGS software release; Journal of
+        Open Source Software), which opened North American Breeding Bird
+        Survey data to wildlife managers and researchers.
+      priority: 1
+      tags: [software, open-science, conservation]
+    - text: >-
+        Developed Bayesian statistical methods for estimating bird population
+        parameters from large national monitoring datasets.
+      priority: 2
+      tags: [research, statistics]
+    - text: >-
+        Built cross-organization relationships that broadened use of the
+        branch's research assets, including biogeographic data products,
+        high-performance computing, and technical expertise.
+      priority: 2
+      tags: [partnerships]
+    - text: >-
+        Co-led an ESIP Lab project, funded by NASA and USGS, modeling avian
+        conservation data and information needs as a graph database (Neo4j).
+      priority: 2
+      tags: [data-systems, research, interagency]
+    - text: >-
+        Published 3 peer-reviewed papers, including an influential article on
+        priorities for synthesis research in ecology and environmental
+        science.
+      priority: 3
+      tags: [research]
+    - text: >-
+        Built USAvian, an interactive map connecting the U.S. bird management,
+        conservation, and research networks.
+      priority: 3
+      tags: [software, conservation]
+    - text: >-
+        Cash awards for exceptional performance in each full fiscal year.
+      priority: 3
+      tags: [leadership]
+
+- id: unl
+  title: Graduate Research Assistant
+  org: Nebraska Cooperative Fish & Wildlife Research Unit, University of Nebraska-Lincoln
+  location: Lincoln, NE
+  start: 2015-08
+  end: 2019-07
+  hours: 40
+  series_grade: GS-7 equivalent
+  accomplishments:
+    - text: >-
+        Managed concurrent multi-partner research projects with international
+        and domestic collaborators, including Department of Defense (SERDP)
+        work applying resilience science to natural resource management on
+        U.S. military installations.
+      priority: 1
+      tags: [research, partnerships]
+    - text: >-
+        Created and led a week-long workshop for Nebraska Game and Parks
+        Commission staff on applied statistics, data management, and
+        geospatial analysis.
+      priority: 2
+      tags: [states, teaching]
+    - text: >-
+        Co-founded the university's institutional membership in the
+        Association for Women in Science and the School of Natural Resources'
+        Natural Resources Diversity Initiative.
+      priority: 2
+      tags: [leadership, mentoring]
+    - text: >-
+        Published 8 peer-reviewed articles and 1 invited book chapter, and
+        authored or co-authored five open-source R packages.
+      priority: 2
+      tags: [research, software]
+    - text: >-
+        Taught peers to use the university's high-performance and cloud
+        computing resources and to practice reproducible, open-source science.
+      priority: 3
+      tags: [open-science, teaching]
+    - text: >-
+        Mentored graduate and high school students; represented graduate
+        students on the School's Faculty Advisory Committee and faculty
+        hiring committees.
+      priority: 3
+      tags: [mentoring]
+
+- id: iiasa
+  title: Young Scientists Summer Program Fellow
+  org: International Institute for Applied Systems Analysis (IIASA)
+  location: Laxenburg, Austria
+  start: 2018-04
+  end: 2018-08
+  hours: 40
+  accomplishments:
+    - text: >-
+        Selected from over 500 international applicants, with support from
+        the U.S. National Academy of Sciences.
+      priority: 1
+      tags: [research]
+    - text: >-
+        Designed and led research with applied mathematicians and systems
+        scientists, resulting in international presentations, a peer-reviewed
+        article, and software releases; organized a seminar on network
+        analysis in ecology.
+      priority: 2
+      tags: [research, statistics, software]
+
+- id: uf-grad
+  title: Graduate Research and Teaching Assistant
+  org: Department of Wildlife Ecology and Conservation, University of Florida
+  location: Gainesville, FL
+  start: 2013-08
+  end: 2015-08
+  hours: 40
+  accomplishments:
+    - text: >-
+        Designed and conducted research on urban bird populations resulting
+        in 3 publications.
+      priority: 2
+      tags: [research]
+    - text: >-
+        Taught and mentored undergraduates, including lectures and workshops
+        on scientific programming, invasive species, and geospatial modeling;
+        teaching assistant for Wildlife Population Ecology and Ecological
+        Statistics.
+      priority: 2
+      tags: [teaching, mentoring]
+    - text: >-
+        Won funding from the local police department and the University of
+        Florida for nature-based programming, including a new on-site trail,
+        at a youth program serving teens at risk of recidivism.
+      priority: 2
+      tags: [outreach, grants]
+    - text: >-
+        Developed and tracked short- and long-term project budgets.
+      priority: 3
+      tags: [budget]
+
+- id: fwri
+  title: Geospatial Analyst Intern
+  org: Florida Fish and Wildlife Research Institute
+  location: Florida
+  start: 2012-04
+  end: 2012-08
+  accomplishments:
+    - text: >-
+        Ground-truthed geospatial data and analyzed bird nest locations and
+        success; monitored Eastern Screech-Owl nests.
+      priority: 2
+      tags: [field, states, conservation]
+
+- id: uf-lab
+  title: Research Assistant
+  org: Avian Ecology and Conservation Lab, University of Florida
+  location: Gainesville, FL
+  start: 2011-01
+  end: 2012-04
+  accomplishments:
+    - text: >-
+        Designed and conducted avian behavioral field research; managed the
+        lab's bird banding database.
+      priority: 2
+      tags: [field, research, data-systems]
+
+- id: nestwatch
+  title: Crew Leader and Smithsonian Fellow
+  org: Neighborhood Nestwatch, Smithsonian Migratory Bird Center
+  location: Florida
+  start: 2011
+  end: 2013
+  dates_note: 2011 and 2013 field seasons
+  accomplishments:
+    - text: >-
+        Trained and led a team of bird banding technicians; recruited and
+        trained participatory (citizen) scientists; managed the banding
+        database and created outreach materials.
+      priority: 2
+      tags: [field, people, outreach]

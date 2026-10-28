@@ -1,0 +1,37 @@
+- name: bbsAssistant
+  url: https://github.com/trashbirdecology/bbsAssistant
+  authors: Burnett, J.L., L.S. Wszola, and G. Palomo-Munoz
+  year: 2019
+  description: R package for downloading and handling North American Breeding Bird Survey data. USGS software release, DOI 10.5066/P93W0EAW.
+  status: stable
+- name: radsets
+  url: https://natbprice.github.io/radsets/
+  authors: Price, N.B., C. Chizinski, and J.L. Burnett
+  description: R package for interactive, network-based visualizations of overlapping sets.
+  status: stable
+- name: distanceTravelled
+  url: https://github.com/trashbirdecology/distancetravelled
+  authors: Burnett, J.L., N.B. Price, and A.J. Tyre
+  description: R package for calculating the distance traveled by a multispecies community along a time series.
+  status: stable
+- name: tvdiff
+  url: https://github.com/natbprice/tvdiff
+  authors: Price, N.B. and J.L. Burnett
+  description: R package for numerical differentiation of noisy, non-smooth data.
+  status: stable
+- name: regimeDetectionMeasures
+  url: https://github.com/trashbirdecology/regimedetectionmeasures
+  authors: Burnett, J.L. and N.B. Price
+  year: 2019
+  description: R package for univariate and multivariate regime detection measures on community time series. DOI 10.5281/zenodo.2547705.
+  status: dormant
+- name: USAvian
+  url: https://github.com/trashbirdecology/USAvian
+  authors: Burnett, J.L., K.R. Burgio, and A. Fournier
+  description: Interactive map connecting the U.S. bird conservation and management networks.
+  status: experimental
+- name: abruptdata
+  url: https://github.com/regime-shifts/abruptdata
+  authors: Burnett, J.L., X. Benito, and K. Braziunas
+  description: R package and information repository for ecological datasets exhibiting abrupt change.
+  status: experimental
