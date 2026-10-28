@@ -73,6 +73,10 @@ servant project teams and their contractors at four NASA centers.
   will designate.
 - First program executive to provide direct, consistent SIPS oversight;
   led ESDIS to institute quarterly check-ins with each SIPS.
+- Data Systems Lead on the Headquarters Mission Management Team for 11
+  satellite missions and airborne campaigns, with oversight of each
+  mission’s Open Science and Data Management Plan; portfolio defaults to
+  open-source software and open data.
 - Led a FIRMS enhancement through a partnership with Google.org while
   keeping continuity on a colleague’s high-visibility work.
 - Scoping a joint NASA-NOAA approach to Level-0 data reprocessing to cut
@@ -102,6 +106,9 @@ servant project teams and their contractors at four NASA centers.
   and tour.
 - Connected a National Park Service detailee (SES Candidate Development
   Program project) to multiple Headquarters and center programs.
+- Co-conceived and implemented the multi-center Biodiversity and
+  Ecological Conservation Virtual Center, which has since evolved into a
+  community of practice.
 - Ran the ESDS FINESST review panel (voluntary).
 
 **Program Coordinator, Ecological Conservation (AAAS Science &
@@ -118,6 +125,10 @@ Washington, DC \| Aug 2022 – Nov 2024
   committee, the National Invasive Species Council, the natural capital
   accounting interagency working group, and the National Plan for Civil
   Earth Observations writing team.
+- Built the relationships behind a Memorandum of Understanding now in
+  development among USGS, NASA, and the National Park Service, and a new
+  center-to-center partnership between USGS Patuxent Wildlife Research
+  Center and NASA Goddard.
 - Managed the solicitation lifecycle for Ecological Conservation awards:
   drafted solicitation language (including open-data compliance), ran
   peer review panels, evaluated data and software management plans, and
@@ -258,8 +269,11 @@ Undergraduate research thesis published (avian playback methods).
 - NASA Headquarters Honor Award, Excellence in National Benefits (2026)
 - Selected for the inaugural cohort, NASA Engineering Development
   Program (only Headquarters scientist) (2026)
+- Five NASA Special Act Awards (2022-2026)
 - Highest possible performance rating (Level 5) in every federal rating
   cycle (2020-2025)
+- AAAS Science & Technology Policy Fellowship (one of two fellows placed
+  at NASA that year) (2022)
 - U.S. Geological Survey Mendenhall Postdoctoral Research Fellowship
   (2019), ~\$222,000
 - USGS cash awards for exceptional performance (each full fiscal year)

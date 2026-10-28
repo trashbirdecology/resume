@@ -10,14 +10,12 @@
 - text: Five NASA Special Act Awards
   year: 2022-2026
   priority: 1
-  verify: "Confirm the count of Special Act Awards."
 - text: Highest possible performance rating (Level 5) in every federal rating cycle
   year: 2020-2025
   priority: 1
-- text: AAAS Science & Technology Policy Fellowship (one of two of ~300 fellows placed at NASA)
+- text: AAAS Science & Technology Policy Fellowship (one of two fellows placed at NASA that year)
   year: 2022
   priority: 1
-  verify: "Fed resume says 'one of only 2'; industry resume says 'the only'. Pick one."
 - text: U.S. Geological Survey Mendenhall Postdoctoral Research Fellowship
   year: 2019
   amount: "~$222,000"

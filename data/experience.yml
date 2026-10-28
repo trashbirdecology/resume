@@ -108,14 +108,13 @@
       tags: [governance, data-systems]
       ecq: [3]
     - text: >-
-        Data Systems Lead on the Headquarters Mission Management Team for
+        Data Systems Lead on the Headquarters Mission Management Team for 11
         satellite missions and airborne campaigns, with oversight of each
         mission's Open Science and Data Management Plan; portfolio defaults
         to open-source software and open data.
       priority: 2
       tags: [open-science, policy, data-systems]
       ecq: [1, 3]
-      verify: "Mission count: 11 (DCSDO resume) vs 14 (FY25 appraisal). Add the current number to the text once confirmed."
     - text: >-
         Led a FIRMS enhancement through a partnership with Google.org while
         keeping continuity on a colleague's high-visibility work.
@@ -186,10 +185,11 @@
       priority: 3
       tags: [interagency, mentoring]
     - text: >-
-        Co-conceived and implemented a multi-center virtual center (BDECVC).
+        Co-conceived and implemented the multi-center Biodiversity and
+        Ecological Conservation Virtual Center, which has since evolved into
+        a community of practice.
       priority: 3
       tags: [leadership, partnerships]
-      verify: "Spell out what BDECVC stands for."
     - text: >-
         Ran the ESDS FINESST review panel (voluntary).
       priority: 3
@@ -223,14 +223,14 @@
       tags: [interagency, policy]
       ecq: [1]
     - text: >-
-        Built the relationships behind a Memorandum of Understanding among
-        USGS, NASA, and the National Park Service, and a new center-to-center
+        Built the relationships behind a Memorandum of Understanding now in
+        development among USGS, NASA, and the National Park Service, and a
+        new center-to-center
         partnership between USGS Patuxent Wildlife Research Center and NASA
         Goddard.
       priority: 1
       tags: [interagency, partnerships]
       ecq: [5]
-      verify: "Is the USGS-NASA-NPS MOU signed and binding, or still in development? The SES resume says 'binding'."
     - text: >-
         Managed the solicitation lifecycle for Ecological Conservation awards:
         drafted solicitation language (including open-data compliance), ran
