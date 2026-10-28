@@ -1,0 +1,61 @@
+---
+# Federal (USAJOBS) resume. Includes grade, hours, and supervisor (from
+# private.yml) for every role, plus credit hours for each degree.
+title: ""
+output:
+  pdf_document:
+    latex_engine: xelatex
+    includes:
+      in_header: ../assets/preamble.tex
+  word_document: default
+geometry: margin=0.6in
+fontsize: 10pt
+mainfont: Carlito
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, results = "asis")
+source(file.path(dirname(knitr::current_input(dir = TRUE)), "..", "R", "cv.R"))
+cv <- load_cv()
+```
+
+```{r}
+render_header(cv)
+```
+
+# Summary
+
+```{r}
+cat(esc(squish(cv$profile$summary$federal)), "\n\n")
+```
+
+# Professional Experience
+
+```{r}
+render_experience(cv, max_priority = 2, federal = TRUE,
+                  compact = c("fwri", "uf-lab", "nestwatch"))
+```
+
+# Education
+
+```{r}
+render_education(cv, federal = TRUE)
+```
+
+# Awards and Recognition
+
+```{r}
+render_awards(cv, max_priority = 1, amounts = FALSE)
+```
+
+# National Service
+
+```{r}
+render_simple(cv$service$national)
+```
+
+# Publications
+
+```{r}
+render_pub_line(cv)
+```

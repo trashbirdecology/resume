@@ -1,0 +1,109 @@
+# priority 1 = shows on short resumes. amount is optional.
+
+- text: NASA Headquarters Honor Award, Excellence in National Benefits
+  year: 2026
+  note: "For exceptional initiative and collaborative leadership connecting NASA's applied Earth science mission to natural resource management through strategic interagency partnerships."
+  priority: 1
+- text: Selected for the inaugural cohort, NASA Engineering Development Program (only Headquarters scientist)
+  year: 2026
+  priority: 1
+- text: Five NASA Special Act Awards
+  year: 2022-2026
+  priority: 1
+  verify: "Confirm the count of Special Act Awards."
+- text: Highest possible performance rating (Level 5) in every federal rating cycle
+  year: 2020-2025
+  priority: 1
+- text: AAAS Science & Technology Policy Fellowship (one of two of ~300 fellows placed at NASA)
+  year: 2022
+  priority: 1
+  verify: "Fed resume says 'one of only 2'; industry resume says 'the only'. Pick one."
+- text: U.S. Geological Survey Mendenhall Postdoctoral Research Fellowship
+  year: 2019
+  amount: "~$222,000"
+  priority: 1
+- text: USGS cash awards for exceptional performance (each full fiscal year)
+  year: 2020-2021
+  priority: 2
+- text: Invited workshop participant, Future of Synthesis in Ecology, NCEAS
+  year: 2020
+  priority: 3
+- text: Young Scientists Summer Program fellowship, IIASA (National Academy of Sciences award)
+  year: 2018
+  amount: "$5,500"
+  priority: 2
+- text: Meritorious Graduate Student Award, School of Natural Resources, UNL
+  year: 2018
+  amount: "$500"
+  priority: 3
+- text: Invited participant, Workshop for Women in Mathematical Biology, NIMBioS
+  year: 2018
+  amount: "$900"
+  priority: 3
+- text: National Science Foundation & NIMBioS award
+  year: 2018
+  amount: "$550"
+  priority: 3
+- text: Nelson Memorial Fellowship, UNL (3x)
+  year: 2016-2018
+  amount: "$3,217 total"
+  priority: 3
+- text: Center for Great Plains Studies travel award, UNL (4x)
+  year: 2016-2018
+  amount: "$3,000 total"
+  priority: 3
+- text: Travel awards, School of Natural Resources and Graduate Travel Fund, UNL; Association for Women in Mathematical Biology
+  year: 2019
+  amount: "$3,200 total"
+  priority: 3
+- text: Kellogg Biological Station award, Michigan State University
+  year: 2017
+  amount: "$500"
+  priority: 3
+- text: Big Ten Academic Alliance Traveling Scholar
+  year: 2017
+  priority: 3
+- text: Fling Fellowship, UNL
+  year: 2016
+  amount: "$20,000"
+  priority: 2
+- text: Othmer Fellowship, UNL
+  year: 2016
+  amount: "$24,000"
+  priority: 2
+- text: Graduate Fellow, Center for Great Plains Studies, UNL
+  year: 2016
+  priority: 3
+- text: AAAS/Science Program for Excellence in Science Award
+  year: 2016
+  priority: 3
+- text: 2nd place, School of Natural Resources Elevator Speech Competition
+  year: 2016
+  amount: "$300"
+  priority: 3
+- text: American Ornithologists' Union travel award
+  year: 2016
+  amount: "$250"
+  priority: 3
+- text: Resilience Alliance Young Scholar
+  year: 2015-2017
+  priority: 3
+- text: NSF Diversity Travel Award, Southeastern Ecology and Evolution Conference
+  year: 2015
+  amount: "$650"
+  priority: 3
+- text: Travel awards, UF Graduate Student Council, Office of Research, and Department of Wildlife Ecology & Conservation
+  year: 2013-2015
+  amount: "$1,950 total"
+  priority: 3
+- text: IFAS Extension Internship for Undergraduate Research, University of Florida
+  year: 2013
+  amount: "$2,200"
+  priority: 3
+- text: Ordway-Swisher Biological Station Undergraduate Research Grant, University of Florida
+  year: 2013
+  amount: "$550"
+  priority: 3
+- text: American Ornithologists' Union Undergraduate Student Membership Award
+  year: 2013
+  priority: 3

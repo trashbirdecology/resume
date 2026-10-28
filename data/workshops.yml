@@ -1,0 +1,30 @@
+# Events and sessions I organized. Newest first.
+
+events:
+  - year: 2024
+    text: "Applied Earth Observations Innovation Partnership annual workshop (~200 attendees). *Organizer*, Ann Arbor, MI"
+  - year: 2024
+    text: "Applied Earth Observations Innovation Partnership monthly webinar series (2023-2024). *Organizer*"
+  - year: 2024
+    text: "NASA Biodiversity & Ecological Conservation science and applications team meeting (~250 attendees, ~75 sessions). *Co-organizer*, Washington, DC"
+  - year: 2024
+    text: "NASA Ecological Conservation annual retreat. *Co-organizer and moderator*, Kennedy Space Center, FL"
+  - year: 2023
+    text: "NASA Earth Science Data and Compute workshop (~75 attendees). *Organizer and moderator*, College Park, MD"
+  - year: 2023
+    text: "NASA Carbon Cycle and Ecosystems Joint Science Workshop (~500 attendees). *Co-organizer and moderator*, College Park, MD"
+  - year: 2023
+    text: "Applied Earth Observations Innovation Partnership annual workshop (~200 attendees). *Co-organizer*, Salt Lake City, UT"
+  - year: 2023
+    text: "NASA Ecological Conservation annual retreat. *Co-organizer and moderator*, Tampa, FL"
+  - year: 2017
+    text: "Introduction to Applied Ecological Statistics, week-long workshop for Nebraska Game and Parks Commission staff. *Co-instructor*, Kearney, NE"
+sessions:
+  - year: 2023
+    text: "Advances in airborne and satellite remote sensing for wildlife ecology and management. *Organizer, moderator, and presenter*, The Wildlife Society"
+  - year: 2020
+    text: "Bridging the gap between science and decision-making through the rapid prototyping of decision support tools (with D. Valle and L.S. Wszola). *Co-organizer*, Ecological Society of America"
+  - year: 2020
+    text: "Using the integrated modelling framework to bridge science and decision making: advances, applications, and opportunities (with J.A. Royle). *Co-organizer*, Ecological Society of America"
+  - year: 2016
+    text: "Opportunities and challenges in big data ornithology (with F.A. La Sorte and C.A. Lepczyk). *Co-organizer*, North American Ornithological Conference V"

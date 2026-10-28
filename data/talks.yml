@@ -1,0 +1,110 @@
+# type: invited | contributed | keynote. Newest first within each type.
+
+- type: keynote
+  year: 2025
+  text: "Zwart, J.A., C. Thompson, C. Brown, J.L. Burnett, et al. Community-developed cyberinfrastructure for efficient ecological forecasting (Core Science Keynote). *105th Annual American Meteorological Society Meeting*"
+- type: contributed
+  year: 2024
+  text: "Zwart, J.A., C. Thompson, C.W. Brown, J.L. Burnett, et al. Community-developed cyberinfrastructure for efficient ecological forecasting. *AGU Fall Meeting*, B23J-02"
+- type: contributed
+  year: 2024
+  text: "Estes, M. and J.L. Burnett. Fisheries ecology and management using NASA data assets. *9th World Fisheries Congress*, Seattle, WA"
+- type: invited
+  year: 2023
+  text: "NASA Earth Science Division: opportunities for the next generation of wildlife professionals (presentation and panel). *The Wildlife Society*, Louisville, KY"
+- type: contributed
+  year: 2023
+  text: "J.L. Burnett. Advances in airborne and satellite remote sensing for wildlife ecology and management (oral and panel). *The Wildlife Society*, Louisville, KY"
+- type: invited
+  year: 2023
+  text: "NASA Earth science for fisheries ecology and management. *American Fisheries Society*, Grand Rapids, MI"
+- type: invited
+  year: 2023
+  text: "NASA Earth science for wildlife ecology and conservation. *USGS Ecosystems Mission Area leadership*, virtual"
+- type: invited
+  year: 2023
+  text: "NASA Earth science for forest ecology, conservation, and fire management. *Society of American Foresters*, Sacramento, CA"
+- type: invited
+  year: 2023
+  text: "An overview of state fish and wildlife agency use of federal geospatial data. *Association of Fish & Wildlife Agencies annual meeting*, Calgary, Canada"
+- type: invited
+  year: 2023
+  text: "Overview of NASA Earth Science Division resources and opportunities. *University of Colorado*, Boulder, CO"
+- type: invited
+  year: 2023
+  text: "Satellite and airborne remote sensing for wildlife conservation in the West. *Western Association of Fish & Wildlife Agencies summer meeting*, Santa Fe, NM"
+- type: invited
+  year: 2023
+  text: "Satellite remote sensing for freshwater fisheries and aquatic sciences. *North American Wildlife and Natural Resources Conference*, St. Louis, MO"
+- type: invited
+  year: 2023
+  text: "Opportunities for STEM students at NASA. *Salt Lake Community College*, Salt Lake City, UT"
+- type: invited
+  year: 2022
+  text: "Overview of the NASA Earth Science Division Ecological Conservation applications area for USGS and U.S. Fish & Wildlife Service. *Patuxent Wildlife Research Center and Refuge*, Laurel, MD"
+- type: invited
+  year: 2022
+  text: "Users and uses of the North American Breeding Bird Survey. *U.S. Geological Survey*, Denver, CO"
+- type: invited
+  year: 2020
+  text: "Integrating data and information to enhance the digital efficiency of wildlife conservation and management. *North American Ornithological Conference*, Washington, DC"
+- type: contributed
+  year: 2020
+  text: "Burnett, J.L., K.R. Burgio, and A.M.V. Fournier. USAvian: a tool for enhancing connections among and within the bird management, conservation, and research communities. *North American Ornithological Conference*"
+- type: invited
+  year: 2019
+  text: "Regime detection measures for the practical ecologist. *Department of Wildlife Ecology & Conservation, University of Florida*, Gainesville, FL"
+- type: invited
+  year: 2019
+  text: "Detecting abrupt change in bird community time series using distance traveled. *Association for Women in Mathematical Biology Symposium*, Houston, TX"
+- type: contributed
+  year: 2019
+  text: "Burnett, J.L., N.B. Price, and A.J. Tyre. A novel method for tracking ecosystem trajectory and abrupt change in space-time: distance traveled. *International Association for Landscape Ecology*, Fort Collins, CO"
+- type: contributed
+  year: 2018
+  text: "Burnett, J.L., R. Crystal-Ornelas, D. Fogarty, K. Hogan, C.R. Allen, M. Bomberger Brown, D. Twidwell, and C.A. Lepczyk. Impacts of non-native birds on native wildlife in urban ecosystems: where is the evidence? *Natural Areas Conference*, Indiana"
+- type: contributed
+  year: 2018
+  text: "Burnett, J.L., B. Fath, and A. Rodenkova. Advances in ecological regime shift detection. *International Institute for Applied Systems Analysis*, Laxenburg, Austria"
+- type: contributed
+  year: 2018
+  text: "Burnett, J.L., N.B. Price, A.J. Tyre, T.J. Hefley, C.R. Allen, T.A. Eason, D.G. Angeler, and D. Twidwell. Community velocity as a regime shift detection method (poster). *Great Plains Grassland Summit*, Denver, CO"
+- type: contributed
+  year: 2017
+  text: "Burnett, J.L., L. Wszola, N. Mirochnitchenko, E. Stuber, M. Bomberger Brown, and J.P. Carroll. Gray partridge distribution in North America: changing landscapes and environment for an introduced species (delivered by JPC). *33rd International Congress of the International Union of Game Biologists*, Montpellier, France"
+- type: contributed
+  year: 2017
+  text: "Burnett, J.L., N.B. Price, A.J. Tyre, T.J. Hefley, C.R. Allen, T.A. Eason, D.G. Angeler, and D. Twidwell. System trajectory and Fisher information as early-warning indicators of ecological regime shifts (poster). *Resilience 2017*, Stockholm, Sweden"
+- type: contributed
+  year: 2017
+  text: "Burnett, J.L., N.B. Price, A.J. Tyre, T.J. Hefley, C.R. Allen, T.A. Eason, D.G. Angeler, and D. Twidwell. System trajectory and Fisher information as early-warning indicators of ecological regime shifts (poster). *Ecological Society of America*, Portland, OR"
+- type: contributed
+  year: 2017
+  text: "Burnett, J.L., C.P. Roberts, C.R. Allen, D.G. Angeler, D. Twidwell, and A.J. Tyre. Ecological regime shifts in the central Great Plains. *Great Plains Symposium*, Lincoln, NE"
+- type: contributed
+  year: 2016
+  text: "Burnett, J.L., C.P. Roberts, C.R. Allen, D.G. Angeler, D. Twidwell, and A.J. Tyre. Using big data to detect regime shifts in space and time (poster). *North American Ornithological Conference VI*, Washington, DC"
+- type: invited
+  year: 2015
+  text: "Decline of the once-ubiquitous House Sparrow in North America. *Nebraska Invasive Species Council*, Lincoln, NE"
+- type: contributed
+  year: 2015
+  text: "Burnett, J.L., M.P. Moulton, K.E. Sieving, M. Avery, and S.K. Robinson. Are House Sparrow declines a byproduct of urban greening? *Southeastern Ecology and Evolution Conference*, Athens, GA"
+- type: contributed
+  year: 2015
+  text: "Burnett, J.L., M.P. Moulton, K.E. Sieving, M.L. Avery, and S.K. Robinson. Are House Sparrow declines a byproduct of urban greening? (poster). *American Ornithologists' Union and Cooper Ornithological Society*, Norman, OK"
+- type: contributed
+  year: 2014
+  text: "Burnett, J.L., M.P. Moulton, and K.E. Sieving. House sparrow: the decline of a once ubiquitous, invasive species (poster). *Florida Chapter of The Wildlife Society*, Safety Harbor, FL"
+- type: contributed
+  year: 2014
+  text: "Burnett, J.L., M.P. Moulton, K.E. Sieving, M.L. Avery, and S.K. Robinson. House Sparrow decline and distribution in North Central Florida (poster). *Florida Cooperative Fish and Wildlife Research Unit cooperators meeting*, Gainesville, FL"
+- type: contributed
+  year: 2013
+  text: "Burnett, J.L. and K.E. Sieving. Detecting birds of prey using tufted titmouse distress calls (poster). *USGS Florida Cooperative Fish and Wildlife Research Unit*, Gainesville, FL"
+- type: contributed
+  year: 2013
+  text: "Burnett, J.L. and K.E. Sieving. Do actual and perceived risks of small forest birds align? *Florida Ornithological Society*, St. Petersburg, FL"
+- type: contributed
+  year: 2013
+  text: "Burnett, J.L. and K.E. Sieving. Perceived predation risks of small forest birds (poster). *Association of Field Ornithologists*, Venus, FL"

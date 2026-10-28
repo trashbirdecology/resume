@@ -1,0 +1,27 @@
+funded:
+  - text: "Wee, B., J.L. Burnett, S. Aulenbach, W. Teng, R.A. Modeling data and information needs for avian conservation using Neo4j. Earth Science Information Partners (ESIP) Lab"
+    amount: "$3,388"
+  - text: "Pedersen, E., J.L. Burnett, G. Simpson, C. Bahlai. Creating a unified approach to evaluate regime shift detection methods. Canadian Institute for Ecology and Evolution"
+    year: 2020
+    amount: "$12,400 CAD"
+  - text: "J.L. Burnett. Mendenhall Postdoctoral Research Fellowship, Core Science Systems, U.S. Geological Survey"
+    year: 2019-2021
+    amount: "~$222,000"
+  - text: "IIASA Young Scientists Summer Program. Funding: National Academy of Sciences and University of Nebraska-Lincoln"
+    year: 2018
+    amount: "~$12,500"
+not_funded:
+  - text: "Pedersen, E., J.L. Burnett, G. Simpson, C. Bahlai. Creating a unified approach to evaluate regime shift detection methods. USGS Powell Center"
+    year: 2020
+  - text: "Informing the design and deployment of a conservation tool, USAvian. USGS Community for Data Integration"
+    year: 2020
+  - text: "Benito, X., C. Bahlai, J.L. Burnett, E. Pedersen, G. Simpson. SESYNC working group proposal"
+    year: 2019
+  - text: "J.L. Burnett. Population Biology Program of Excellence Postdoctoral Fellowship, University of Nebraska-Lincoln"
+    year: 2018
+  - text: "Burnett, J.L., C.R. Allen, G. Sugihara, H. Ye. Scale mismatches in ecological research and management. USGS Powell Center"
+    year: 2018
+  - text: "J.L. Burnett. Mozilla Fellowship for Science"
+    year: 2016
+  - text: "J.L. Burnett. NSF Graduate Research Fellowship"
+    year: 2013

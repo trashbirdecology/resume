@@ -1,0 +1,48 @@
+# Public contact and headline info. Anything private (phone, supervisor
+# contact, full mailing address) goes in private.yml, which is gitignored.
+# Copy private.example.yml -> private.yml to render application versions.
+
+name: Jessica L. Burnett, Ph.D.
+location: Washington, DC
+email: jessicaleighburnett@gmail.com
+github: trashbirdecology
+orcid: 0000-0002-0896-5099
+linkedin: burnettjl
+scholar: https://scholar.google.com/citations?user=L0t-rQoAAAAJ
+
+# One-paragraph summaries, by audience. Templates pick the one they need.
+summary:
+  federal: >-
+    Program executive at NASA Headquarters who turns NASA's satellite and
+    airborne observations into trusted, openly available data for
+    scientists, responders, and resource managers. Oversees a portfolio of
+    about $40M per year producing global Earth data, carried out by civil
+    servant and contractor teams at four NASA centers. Builds partnerships
+    across Interior bureaus, state fish and wildlife agencies, Tribal-serving
+    organizations, NOAA, the U.S. Forest Service, and the private sector.
+    Ph.D. in Natural Resource Sciences; B.S. and M.S. in Wildlife Ecology and
+    Conservation.
+  ses: >-
+    Senior program executive at NASA Headquarters bridging federal science
+    investments and on-the-ground natural resource management. Oversees a
+    multi-project portfolio producing global Earth observation data, run by
+    civil servant and contractor teams at four U.S. NASA centers, and has
+    built partnerships with Department of the Interior bureaus, state fish
+    and wildlife agencies, Tribal-serving organizations, and conservation
+    NGOs. Recognized with a FY26 NASA Headquarters Honor Award for
+    "Excellence in National Benefits."
+  industry: >-
+    Data and program leader who connects large-scale data infrastructure to
+    real-world decisions. At NASA Headquarters, leads programs that produce
+    global Earth observation data used by scientists, firefighters, insurers,
+    land managers, and conservation groups, and sets the governance,
+    metrics, and partnerships that keep those data trusted and used. Trained
+    as a wildlife ecologist and statistician; open-source software developer;
+    known for building trust across organizations she doesn't control.
+  extended: >-
+    I lead programs at NASA Headquarters that turn satellite and airborne
+    observations into trusted, openly available data, and I work to get
+    those data into the hands of people managing fish, wildlife, fire, and
+    land. I started as a field biologist and quantitative ecologist, moved
+    into data science at USGS, and came to NASA through the AAAS Science &
+    Technology Policy Fellowship.

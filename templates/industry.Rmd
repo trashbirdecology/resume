@@ -1,0 +1,57 @@
+---
+# Industry / NGO resume (2 pages). No grades or hours; leads with outcomes.
+title: ""
+output:
+  pdf_document:
+    latex_engine: xelatex
+    includes:
+      in_header: ../assets/preamble.tex
+  word_document: default
+geometry: margin=0.6in
+fontsize: 10pt
+mainfont: Carlito
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, results = "asis")
+source(file.path(dirname(knitr::current_input(dir = TRUE)), "..", "R", "cv.R"))
+cv <- load_cv()
+```
+
+```{r}
+render_header(cv)
+```
+
+# Summary
+
+```{r}
+cat(esc(squish(cv$profile$summary$industry)), "\n\n")
+```
+
+# Experience
+
+```{r}
+render_experience(cv, roles = "nasa-esds-pe", max_priority = 2, n = 8, summaries = TRUE)
+render_experience(cv, roles = "nasa-ecocon", max_priority = 2, n = 4, summaries = FALSE)
+render_experience(cv, roles = "usgs", max_priority = 2, n = 2, summaries = FALSE)
+render_experience(cv, compact = c("unl", "iiasa", "uf-grad"), roles = character(0))
+```
+
+# Education
+
+```{r}
+render_education(cv)
+```
+
+# Recognition
+
+```{r}
+render_awards(cv, max_priority = 1, amounts = FALSE)
+```
+
+# Open Science and Software
+
+```{r}
+render_pub_line(cv)
+cat("Author or co-author of ", length(cv$software), " open-source software tools, including `bbsAssistant` (USGS software release). github.com/", cv$profile$github, "\n\n", sep = "")
+```

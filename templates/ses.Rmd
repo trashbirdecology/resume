@@ -1,0 +1,52 @@
+---
+# SES resume (2 pages). The current role is organized by Executive Core
+# Qualification. Add technical qualification (TQ) bullets for a specific
+# posting when tailoring; don't commit those.
+title: ""
+output:
+  pdf_document:
+    latex_engine: xelatex
+    includes:
+      in_header: ../assets/preamble.tex
+  word_document: default
+geometry: margin=0.5in
+fontsize: 10pt
+mainfont: Carlito
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, results = "asis")
+source(file.path(dirname(knitr::current_input(dir = TRUE)), "..", "R", "cv.R"))
+cv <- load_cv()
+```
+
+```{r}
+render_header(cv, extra = "Not SES or SES CDP certified")
+```
+
+# Executive Summary
+
+```{r}
+cat(esc(squish(cv$profile$summary$ses)), "\n\n")
+```
+
+# Professional Experience
+
+```{r}
+render_ecq_role(cv, "nasa-esds-pe", per_ecq = 2)
+render_experience(cv, roles = c("nasa-ecocon"), max_priority = 2, n = 5, federal = TRUE)
+render_experience(cv, roles = c("usgs"), max_priority = 2, n = 3, federal = TRUE)
+render_experience(cv, compact = c("unl", "iiasa", "uf-grad"), roles = character(0))
+```
+
+# Education
+
+```{r}
+render_education(cv, inline = TRUE)
+```
+
+# Awards and Development
+
+```{r}
+render_awards(cv, max_priority = 1, inline = TRUE, amounts = FALSE)
+```

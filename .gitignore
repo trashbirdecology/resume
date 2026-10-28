@@ -1,25 +1,19 @@
-# History files
+# R
 .Rhistory
 .Rapp.history
-
-# Session Data files
 .RData
+.Rproj.user/
+
+# OS
 .DS_Store
 
-*.log
-*.out
-*.aux
-nul 
-*.tex
-*.md
-!cv-latex.tex
+# Private details (phone, supervisor, address). Never commit.
+private.yml
 
-README_files/figure-gfm/fa-icon-30c4616c049063884dd0a3d0075831eb.svg
-README_files/figure-gfm/fa-icon-48b1da2867ad7312ef1fde4a125efd4e.svg
-README_files/figure-gfm/fa-icon-5ea3361430ab42477e0145b37bf037cc.svg
-README_files/figure-gfm/fa-icon-a32c8471294266ceed38a8d3d266d74b.svg
-README_files/figure-gfm/fa-icon-a7ff419e70980f9f1a65816048d94526.svg
-README_files/figure-gfm/fa-icon-e14f39f52171e9cba8154737acb24799.svg
-README_files/figure-gfm/fa-icon-fc9104599277ccb91d4e70e2088fe75b.svg
-burnett_fedresume.docx
-burnett_resume.docx
+# Rendered resumes. Render locally with build.R; don't commit.
+output/
+*.pdf
+*.docx
+*.log
+*.tex
+*_files/
