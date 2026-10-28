@@ -66,5 +66,5 @@ LaTeX install with XeLaTeX and the Carlito font (for PDFs).
 ### Want to copy this?
 
 Go for it. Fork the repo, replace what's in `data/`, and render. Older versions
-of my resumes and the original layout are under the
-[`archive-2026`](../../tree/archive-2026) tag.
+of my resumes and the original layout are on the
+[`archive-2026`](../../tree/archive-2026) branch.
