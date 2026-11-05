@@ -17,3 +17,6 @@ output/
 *.log
 *.tex
 *_files/
+
+# Keep the shared LaTeX preamble (templates need it)
+!assets/*.tex
